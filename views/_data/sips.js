@@ -1,3 +1,9 @@
+module.exports = function () {
+    return {
+        events: sips,
+    };
+};
+
 const sips = [
     {
         name: "Prova Lab presents: SIP. A Social Purpose Happy Hour.",
@@ -15,6 +21,7 @@ const sips = [
         },
         venue_id: "108426129",
         url: "https://www.eventbrite.com/e/prova-lab-presents-sip-a-social-purpose-happy-hour-tickets-396854030087",
+        display_date: "9 November 2022",
     },
     {
         name: "Prova Lab presents: SIP. A Social Purpose Happy Hour.",
@@ -32,6 +39,7 @@ const sips = [
         },
         venue_id: "108426129",
         url: "https://www.eventbrite.com/e/prova-lab-presents-sip-a-social-purpose-happy-hour-tickets-396853929787",
+        display_date: "26 October 2022",
     },
     {
         name: "Prova Lab presents: SIP. A Social Purpose Happy Hour.",
@@ -49,6 +57,7 @@ const sips = [
         },
         venue_id: "108426129",
         url: "https://www.eventbrite.com/e/prova-lab-presents-sip-a-social-purpose-happy-hour-tickets-396853889667",
+        display_date: "12 October 2022",
     },
     {
         name: "Prova Lab presents: SIP. A Social Purpose Happy Hour.",
@@ -66,6 +75,7 @@ const sips = [
         },
         venue_id: "108426129",
         url: "https://www.eventbrite.com/e/prova-lab-presents-sip-a-social-purpose-happy-hour-tickets-396853829487",
+        display_date: "28 September 2022",
     },
     {
         name: "Prova Lab presents: SIP. A Social Purpose Happy Hour.",
@@ -83,6 +93,7 @@ const sips = [
         },
         venue_id: "108426129",
         url: "https://www.eventbrite.com/e/prova-lab-presents-sip-a-social-purpose-happy-hour-tickets-396853819457",
+        display_date: "14 September 2022",
     },
     {
         name: "Prova Lab presents: SIP. A Social Purpose Happy Hour.",
@@ -100,6 +111,7 @@ const sips = [
         },
         venue_id: "108426129",
         url: "https://www.eventbrite.com/e/prova-lab-presents-sip-a-social-purpose-happy-hour-tickets-396853779337",
+        display_date: "24 August 2022",
     },
     {
         name: "WHY AN INCLUSIVE OUTDOORS MATTERS",
@@ -109,6 +121,7 @@ const sips = [
         end: { utc: "September 14, 2021" },
         venue_id: undefined,
         url: "https://www.eventbrite.com/e/sip-why-an-inclusive-outdoors-matters-tickets-170502748310",
+        display_date: "14 September 2021",
     },
     {
         name: 'THE "JUSTICE" IN CLIMATE JUSTICE',
@@ -118,6 +131,7 @@ const sips = [
         end: { utc: "August 10, 2021" },
         venue_id: undefined,
         url: "https://www.eventbrite.com/e/sip-a-social-purpose-happy-hour-tickets-166082526307",
+        display_date: "10 August 2021",
     },
     {
         name: "OUR 50TH. LIVE AT MANNY'S",
@@ -127,6 +141,7 @@ const sips = [
         end: { utc: "July 13, 2021" },
         venue_id: undefined,
         url: "https://www.eventbrite.com/e/sip-a-spoke-happy-hour-tickets-161956053917",
+        display_date: "13 July 2021",
     },
     {
         name: "THE LIVE SHOW. A PICNIC WITH KAT & HELKE",
@@ -136,6 +151,7 @@ const sips = [
         end: { utc: "June 15, 2021" },
         venue_id: undefined,
         url: undefined,
+        display_date: "15 June 2021",
     },
     {
         name: "THE CALIFORNIA ENVIRONMENTAL QUALITY ACT 101",
@@ -145,6 +161,7 @@ const sips = [
         end: { utc: "April 29, 2021" },
         venue_id: undefined,
         url: undefined,
+        display_date: "29 April 2021",
     },
     {
         name: "CANNABIS MARKETING. WHY WORDS MATTER",
@@ -154,6 +171,7 @@ const sips = [
         end: { utc: "April 22, 2021" },
         venue_id: undefined,
         url: undefined,
+        display_date: "22 April 2021",
     },
     {
         name: "THE CONSEQUENCES OF FAKE MEDICINE",
@@ -163,6 +181,7 @@ const sips = [
         end: { utc: "April 8, 2021" },
         venue_id: undefined,
         url: undefined,
+        display_date: "8 April 2021",
     },
     {
         name: "WHY WE NEED A BETTER INTERNET",
@@ -172,6 +191,7 @@ const sips = [
         end: { utc: "April 1, 2021" },
         venue_id: undefined,
         url: undefined,
+        display_date: "1 April 2021",
     },
     {
         name: "UNPACKING PERSONAL SOCIAL CHALLENGES",
@@ -181,6 +201,7 @@ const sips = [
         end: { utc: "March 25, 2021" },
         venue_id: undefined,
         url: undefined,
+        display_date: "25 March 2021",
     },
     {
         name: "DISASTER RISK & CULTURAL HERITAGE",
@@ -190,6 +211,7 @@ const sips = [
         end: { utc: "March 18, 2021" },
         venue_id: undefined,
         url: undefined,
+        display_date: "18 March 2021",
     },
     {
         name: "REPRODUCTIVE JUSTICE",
@@ -199,6 +221,7 @@ const sips = [
         end: { utc: "March 11, 2021" },
         venue_id: undefined,
         url: undefined,
+        display_date: "11 March 2021",
     },
     {
         name: "WILL TRAVEL BE THE SAME AFTER COVID-19?",
@@ -208,6 +231,7 @@ const sips = [
         end: { utc: "March 4, 2021" },
         venue_id: undefined,
         url: undefined,
+        display_date: "4 March 2021",
     },
     {
         name: "CORPORATE SUSTAINABILITY REPORTING",
@@ -217,6 +241,7 @@ const sips = [
         end: { utc: "February 25, 2021" },
         venue_id: undefined,
         url: undefined,
+        display_date: "25 February 2021",
     },
     {
         name: "VOTER CAMPAIGNING 2020. WHERE IT MATTERED.",
@@ -226,6 +251,7 @@ const sips = [
         end: { utc: "February 18, 2021" },
         venue_id: undefined,
         url: undefined,
+        display_date: "18 February 2021",
     },
     {
         name: "PARTICIPATORY RESEARCH. COMMUNITIES IN CHARGE.",
@@ -235,6 +261,7 @@ const sips = [
         end: { utc: "February 11, 2021" },
         venue_id: undefined,
         url: undefined,
+        display_date: "11 February 2021",
     },
     {
         name: "REPRESENTATION IN ENTREPRENEURSHIP",
@@ -244,6 +271,7 @@ const sips = [
         end: { utc: "February 4, 2021" },
         venue_id: undefined,
         url: undefined,
+        display_date: "4 February 2021",
     },
     {
         name: "FOOD WASTE & CLIMATE CHANGE",
@@ -253,6 +281,7 @@ const sips = [
         end: { utc: "January 28, 2021" },
         venue_id: undefined,
         url: undefined,
+        display_date: "28 January 2021",
     },
     {
         name: "IS M&E A NECESSITY, OR JUST A BURDEN?",
@@ -262,6 +291,7 @@ const sips = [
         end: { utc: "January 21, 2021" },
         venue_id: undefined,
         url: undefined,
+        display_date: "21 January 2021",
     },
     {
         name: "HAPPY 2021! NOW WHAT?",
@@ -271,6 +301,7 @@ const sips = [
         end: { utc: "January 14, 2021" },
         venue_id: undefined,
         url: undefined,
+        display_date: "14 January 2021",
     },
     {
         name: "END OF YEAR CELEBRATION WITH KAT & HELKE",
@@ -280,6 +311,7 @@ const sips = [
         end: { utc: "December 10, 2020" },
         venue_id: undefined,
         url: undefined,
+        display_date: "10 December 2020",
     },
     {
         name: "PERSONAL SAFETY & BOUNDARY SETTING",
@@ -289,6 +321,7 @@ const sips = [
         end: { utc: "December 3, 2020" },
         venue_id: undefined,
         url: undefined,
+        display_date: "3 December 2020",
     },
     {
         name: "HOW TO HATE (BUT TAKE ACTION ON) PLASTICS",
@@ -298,6 +331,7 @@ const sips = [
         end: { utc: "November 19, 2020" },
         venue_id: undefined,
         url: undefined,
+        display_date: "19 November 2020",
     },
     {
         name: "NLP MACHINE LEARNING",
@@ -307,6 +341,7 @@ const sips = [
         end: { utc: "November 12, 2020" },
         venue_id: undefined,
         url: undefined,
+        display_date: "12 November 2020",
     },
     {
         name: "EXPLORING COMMUNITY ENGAGEMENT",
@@ -316,6 +351,7 @@ const sips = [
         end: { utc: "November 5, 2020" },
         venue_id: undefined,
         url: undefined,
+        display_date: "5 November 2020",
     },
     {
         name: "WHAT ARE SUSTAINABILITY METRICS",
@@ -325,6 +361,7 @@ const sips = [
         end: { utc: "October 29, 2020" },
         venue_id: undefined,
         url: undefined,
+        display_date: "29 October 2020",
     },
     {
         name: "ADVOCATING FOR THE AMAZON",
@@ -334,6 +371,7 @@ const sips = [
         end: { utc: "October 22, 2020" },
         venue_id: undefined,
         url: undefined,
+        display_date: "22 October 2020",
     },
     {
         name: "DESTIGMATIZING PERIODS THROUGH COMEDY",
@@ -343,6 +381,7 @@ const sips = [
         end: { utc: "October 15, 2020" },
         venue_id: undefined,
         url: undefined,
+        display_date: "15 October 2020",
     },
     {
         name: "CLIMATE CRISIS DOOM & BLOOM",
@@ -352,6 +391,7 @@ const sips = [
         end: { utc: "October 8, 2020" },
         venue_id: undefined,
         url: undefined,
+        display_date: "8 October 2020",
     },
     {
         name: "WILL VOTER TURNOUT DECIDE THE ELECTION",
@@ -361,6 +401,7 @@ const sips = [
         end: { utc: "October 1, 2020" },
         venue_id: undefined,
         url: undefined,
+        display_date: "1 October 2020",
     },
     {
         name: "INCLUSIVITY AT WORK",
@@ -370,6 +411,7 @@ const sips = [
         end: { utc: "September 24, 2020" },
         venue_id: undefined,
         url: undefined,
+        display_date: "24 September 2020",
     },
     {
         name: "DOCUMENTING UNTOLD SOCIAL ISSUE STORIES",
@@ -379,6 +421,7 @@ const sips = [
         end: { utc: "September 17, 2020" },
         venue_id: undefined,
         url: undefined,
+        display_date: "17 September 2020",
     },
     {
         name: "A HAPPY HOUR ON EDUCATION DURING COVID",
@@ -388,6 +431,7 @@ const sips = [
         end: { utc: "September 10, 2020" },
         venue_id: undefined,
         url: undefined,
+        display_date: "10 September 2020",
     },
     {
         name: "A HAPPY HOUR ON HEALING THROUGH REVELING",
@@ -397,6 +441,7 @@ const sips = [
         end: { utc: "September 3, 2020" },
         venue_id: undefined,
         url: undefined,
+        display_date: "3 September 2020",
     },
     {
         name: "A HAPPY HOUR ON CIRCULAR ECONOMIES",
@@ -406,6 +451,7 @@ const sips = [
         end: { utc: "August 27, 2020" },
         venue_id: undefined,
         url: undefined,
+        display_date: "27 August 2020",
     },
     {
         name: "A HAPPY HOUR ON IMPACT INVESTING",
@@ -415,6 +461,7 @@ const sips = [
         end: { utc: "August 20, 2020" },
         venue_id: undefined,
         url: undefined,
+        display_date: "20 August 2020",
     },
     {
         name: "A HAPPY HOUR ON POLITICS",
@@ -424,6 +471,7 @@ const sips = [
         end: { utc: "August 13, 2020" },
         venue_id: undefined,
         url: undefined,
+        display_date: "13 August 2020",
     },
     {
         name: "A HAPPY HOUR ON SUSTAINABLE FASHION",
@@ -433,6 +481,7 @@ const sips = [
         end: { utc: "August 6, 2020" },
         venue_id: undefined,
         url: undefined,
+        display_date: "6 August 2020",
     },
     {
         name: "A HAPPY HOUR ON ARTIFICIAL INTELLIGENCE",
@@ -442,6 +491,7 @@ const sips = [
         end: { utc: "July 30, 2020" },
         venue_id: undefined,
         url: undefined,
+        display_date: "30 July 2020",
     },
     {
         name: "A HAPPY HOUR ON PROCUREMENT & SOCIAL IMPACT",
@@ -451,6 +501,7 @@ const sips = [
         end: { utc: "July 16, 2020" },
         venue_id: undefined,
         url: undefined,
+        display_date: "16 July 2020",
     },
     {
         name: "A HAPPY HOUR ON COUNTERFEIT MEDICINE",
@@ -460,6 +511,7 @@ const sips = [
         end: { utc: "July 9, 2020" },
         venue_id: undefined,
         url: undefined,
+        display_date: "9 July 2020",
     },
     {
         name: "A HAPPY HOUR ON DISABILITY RIGHTS",
@@ -469,6 +521,7 @@ const sips = [
         end: { utc: "July 2, 2020" },
         venue_id: undefined,
         url: undefined,
+        display_date: "2 July 2020",
     },
     {
         name: "A HAPPY HOUR ON SUSTAINABILITY",
@@ -478,6 +531,7 @@ const sips = [
         end: { utc: "June 25, 2020" },
         venue_id: undefined,
         url: undefined,
+        display_date: "25 June 2020",
     },
     {
         name: "A HAPPY HOUR ON LABOR EXPLOITATION",
@@ -487,6 +541,7 @@ const sips = [
         end: { utc: "June 18, 2020" },
         venue_id: undefined,
         url: undefined,
+        display_date: "18 June 2020",
     },
     {
         name: "A HAPPY HOUR ON CORPORATE ACTIVISM",
@@ -496,6 +551,7 @@ const sips = [
         end: { utc: "June 11, 2020" },
         venue_id: undefined,
         url: undefined,
+        display_date: "11 June 2020",
     },
     {
         name: "A HAPPY HOUR ON INDIVIDUAL ACTIVISM",
@@ -505,6 +561,7 @@ const sips = [
         end: { utc: "June 4, 2020" },
         venue_id: undefined,
         url: undefined,
+        display_date: "4 June 2020",
     },
     {
         name: "A HAPPY HOUR ON THE ARTS",
@@ -514,6 +571,7 @@ const sips = [
         end: { utc: "May 28, 2020" },
         venue_id: undefined,
         url: undefined,
+        display_date: "28 May 2020",
     },
     {
         name: "A HAPPY HOUR ON HEALTH & SAFETY",
@@ -523,6 +581,7 @@ const sips = [
         end: { utc: "May 21, 2020" },
         venue_id: undefined,
         url: undefined,
+        display_date: "21 May 2020",
     },
     {
         name: "A HAPPY HOUR ON COMMS & ENGAGEMENT",
@@ -532,6 +591,7 @@ const sips = [
         end: { utc: "May 14, 2020" },
         venue_id: undefined,
         url: undefined,
+        display_date: "14 May 2020",
     },
     {
         name: "A HAPPY HOUR ON THE FUTURE OF WORK",
@@ -541,6 +601,7 @@ const sips = [
         end: { utc: "May 7, 2020" },
         venue_id: undefined,
         url: undefined,
+        display_date: "7 May 2020",
     },
     {
         name: "A HAPPY HOUR ON FEELING STUCK",
@@ -550,6 +611,7 @@ const sips = [
         end: { utc: "April 30, 2020" },
         venue_id: undefined,
         url: undefined,
+        display_date: "30 April 2020",
     },
     {
         name: "A HAPPY HOUR ON FOOD",
@@ -559,5 +621,6 @@ const sips = [
         end: { utc: "April 23, 2020" },
         venue_id: undefined,
         url: undefined,
+        display_date: "23 April 2020",
     },
 ];

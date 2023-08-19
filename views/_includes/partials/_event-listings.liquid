@@ -1,7 +1,7 @@
 <div class="eventbrite-listings">
     <div class="events-status">
         <div class="events-category">
-            <h3 class="category-name">{{ event_title }} (<span id="event-count"></span>)</h3>
+            <h3 class="category-name">{{ event_title }} ({{ events.length }})</h3>
             {% if description != false %}
                 <p>{{ description }}</p>
             {% endif %}
@@ -11,7 +11,24 @@
                     style="padding-right: 10px;"
                     onclick="scrollEvents(event, false)">&#x25C0;&#xFE0E;</h1>
                 <div class="events-wrapper">
-                    EVENT LISTINGS
+                    {% for event in events %}
+                        <div class="event-info">
+                            <div class="event-content">
+                                {% if event.url %}
+                                    <a
+                                        href="{{ event.url }}"
+                                        target="_blank"
+                                        rel="noopener">
+                                        <h4 class="event-name">{{ event.name }}</h4>
+                                    </a>
+                                {% else %}
+                                    <h4 class="event-name">{{ event.name }}</h4>
+                                {% endif %}
+                                <p class="date">{{ event.display_date }}</p>
+                                <p class="description">{{ event.description }}</p>
+                            </div>
+                        </div>
+                    {% endfor %}
                 </div>
                 <h1
                     class="arrow section-title"

@@ -1,3 +1,9 @@
+module.exports = function () {
+    return {
+        events: bootcamps,
+    };
+};
+
 const bootcamps = [
     {
         name: "Social Innovation Bootcamp: March 2022",
@@ -15,6 +21,7 @@ const bootcamps = [
         },
         venue_id: null,
         url: "https://www.eventbrite.com/e/social-innovation-bootcamp-march-2022-tickets-200175639727",
+        display_date: "11 March 2022",
     },
     {
         name: "Social Impact Bootcamp: February 2022",
@@ -32,6 +39,7 @@ const bootcamps = [
         },
         venue_id: null,
         url: "https://www.eventbrite.com/e/social-impact-bootcamp-february-2022-tickets-218921559277",
+        display_date: "25 February 2022",
     },
     {
         name: "Social Impact Bootcamp",
@@ -49,6 +57,7 @@ const bootcamps = [
         },
         venue_id: null,
         url: "https://www.eventbrite.com/e/social-impact-bootcamp-tickets-168975340793",
+        display_date: "15 October 2021",
     },
     {
         name: "Social Innovation Bootcamp",
@@ -66,5 +75,6 @@ const bootcamps = [
         },
         venue_id: null,
         url: "https://www.eventbrite.com/e/social-innovation-bootcamp-tickets-167639818209",
+        display_date: "1 October 2021",
     },
 ];
