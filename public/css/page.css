@@ -1,0 +1,32 @@
+#page-heading {
+  padding: 10px 0 5px;
+  text-align: center;
+}
+#page-heading img {
+  height: 55px;
+}
+
+.content {
+  max-width: 900px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 30px;
+}
+
+.page-more-content .content,
+.parallax-full-width .content {
+  margin: 80px auto;
+}
+
+.prova-page .columns .content .section-title {
+  text-align: center;
+}
+.prova-page .columns.plain .content {
+  max-width: 900px;
+  width: 100%;
+  margin: auto;
+  padding: 80px 20px;
+}
+.prova-page .columns.plain .content, .prova-page .columns.plain .content > * {
+  text-align: center;
+}/*# sourceMappingURL=page.css.map */

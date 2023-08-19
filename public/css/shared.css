@@ -1,0 +1,104 @@
+#top.parallax {
+    background-color: #000000;
+    background-image: url("/assets/johan-extra-lightbulb-unsplash-faded-bottom.jpg");
+}
+
+.subscribe-autofocus-link,
+a:not(.custom-button) {
+    color: #f7a34a;
+}
+
+.subscribe-autofocus-link:hover,
+a:not(.custom-button):hover {
+    color: #4cb0be;
+}
+
+.arrows-wrapper .arrow:hover {
+    color: #f7a34a;
+    cursor: pointer;
+    font-size: 2rem !important;
+}
+
+.upcoming-header {
+    background-color: #4cb0be;
+}
+
+.event-info .date {
+    color: #4cb0be;
+}
+
+.custom-button:hover,
+.navbar li a:hover {
+    background-color: #4cb0be !important;
+    color: #000000 !important;
+}
+
+.custom-button,
+.navbar a {
+    color: #000000 !important;
+}
+
+#top .navbar ul,
+.custom-button,
+.navbar,
+.navbar li {
+    background-color: #f7a34a !important;
+}
+
+#landing .columns {
+    border-bottom: 5px solid #f7a34a;
+}
+
+#landing section:not(#top) {
+    border-bottom: 5px solid #f7a34a;
+}
+
+body:not(.page-template-template-page-parallax-full-width):not(
+        .page-template-template-page-rotating-left
+    ):not(.page-template-template-page-rotating-right)
+    .feature-image-side,
+hr {
+    background-color: #4cb0be;
+}
+
+.section-title {
+    color: #4cb0be;
+}
+
+footer {
+    background-color: #4cb0be;
+    color: #000000;
+}
+
+/* contact form color */
+
+.custom-contact input,
+.custom-contact textarea {
+    color: #4cb0be !important;
+}
+
+/* subscribe color */
+
+.subscribe input[type="submit"],
+.subscribe input[type="email"],
+.subscribe input[type="email"]::placeholder {
+    color: #000000 !important;
+}
+
+.subscribe input[type="email"]::placeholder {
+    opacity: 0.6;
+}
+
+.subscribe input[type="submit"] {
+    background-color: #000000 !important;
+    color: #f7a34a !important;
+}
+
+.subscribe input[type="email"] {
+    border-bottom: 1px solid #000000 !important;
+}
+
+.subscribe input[type="submit"]:hover {
+    background-color: #4cb0be !important;
+    color: #000000 !important;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% assign title = "Events &mdash; Prova Lab" %}
+        {% include "partials/_head.liquid" %}
+    </head>
+    <!-- hidden while correctly positioning parallax elements -->
+    <body class="page-template page-template-templates page-template-template-page-featured-image-right page-template-templatestemplate-page-featured-image-right-php page page-id-160" style="visibility: hidden;">
+        {% include "partials/_small-header.liquid" %}
+        {% include "partials/_sticky-navbar.liquid" %}
+        <div class="feature-image-side">
+            <div class="content-wrapper right-side">
+                <div class="content">
+                    <img class="featured-image float-right" src="/assets/events.jpg" />
+                    <h1 class="section-title page-title">Events</h1>
+
+                    <p>We develop virtual and in-person events to educate and connect individuals interested in social innovation and social impact. We are especially interested in showcasing innovation beyond theory. All events aim to be 1) sustainable, 2) cross-silo, and 3) experiential.</p>
+
+                    <p>We love collaboration. If you’d like to discuss partnering on or sponsoring an event,
+                        <a
+                            href="/#contact"
+                            data-type="page"
+                            data-id="35">drop us a line</a>.</p>
+
+                    <p>Prova Lab originated in part from a weekly series of educational community happy hours starting during shelter-in-place (SIPs), organized through MeetUp. Though that channel has closed, you can view our past events below, and follow our current events on
+                        <a
+                            rel="noopener"
+                            href="https://www.eventbrite.com/o/prova-lab-33834574653"
+                            target="_blank">Eventbrite</a>.</p>
+                    <div class="events-spacer"></div>
+
+                    {% assign event_title = "SIP Events" %}
+                    {% assign description = "Originally devised as an online series of informal happy hours
+                       during COVID-19’s shelter-in-place, SIPs are signature Prova Lab events
+                       designed to raise awareness and connect on issues in our community.
+                       SIP remains a safe and meaningful space to learn, inspire and support each other." %}
+                    {% include "partials/_event-listings.liquid" %}
+                </div>
+            </div>
+        </div>
+        {% include "partials/_footer.liquid" %}
+        <script src="/scripts/events.js"></script>
+    </body>
+</html>

@@ -1,0 +1,28 @@
+.columns.rotating-left, .columns.rotating-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.columns .rotating {
+  width: 30%;
+  height: auto;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+}
+.columns .rotating img {
+  height: auto !important;
+  width: 100% !important;
+}
+
+@media only screen and (max-width: 640px) {
+  .columns.rotating-left, .columns.rotating-right {
+    padding-top: 50px;
+  }
+  .columns .rotating {
+    width: 70%;
+    max-width: 350px;
+  }
+}/*# sourceMappingURL=rotating.css.map */

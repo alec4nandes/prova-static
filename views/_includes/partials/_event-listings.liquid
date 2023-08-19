@@ -1,0 +1,25 @@
+<div class="eventbrite-listings">
+    <div class="events-status">
+        <div class="events-category">
+            <h3 class="category-name">{{ event_title }} (<span id="event-count"></span>)</h3>
+            {% if description != false %}
+                <p>{{ description }}</p>
+            {% endif %}
+            <div class="arrows-wrapper">
+                <h1
+                    class="arrow section-title"
+                    style="padding-right: 10px;"
+                    onclick="scrollEvents(event, false)">&#x25C0;&#xFE0E;</h1>
+                <div class="events-wrapper">
+                    EVENT LISTINGS
+                </div>
+                <h1
+                    class="arrow section-title"
+                    style="padding-left: 10px;"
+                    onclick="scrollEvents(event, true)">&#x25B6;&#xFE0E;</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="/scripts/events.js"></script>

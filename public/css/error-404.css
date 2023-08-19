@@ -1,0 +1,17 @@
+.error-404 {
+  text-align: center;
+}
+.error-404 span {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  font-family: "Oxygen", sans-serif !important;
+  font-size: min(20vw, 100px);
+  margin: 0 0 60px;
+  text-transform: none;
+}
+.error-404 span img {
+  width: min(12vw, 60px);
+  position: relative;
+  top: min(1vw, 5px);
+}/*# sourceMappingURL=error-404.css.map */

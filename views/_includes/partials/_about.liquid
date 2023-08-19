@@ -1,0 +1,56 @@
+<div class="parallax-full-width columns">
+    <div class="parallax" style="background-image: url('/assets/balloons-cropped-new2.jpg');">
+        <div class="content">
+
+            <div class="wp-block-group parallax-full-width-box about-us has-white-color has-text-color has-background is-layout-flow wp-block-group-is-layout-flow" style="background-color:#1d1d1d">
+                <div class="wp-block-group__inner-container" style="color:#ffffff;">
+                    {% if is_preview == true %}
+                        <h2 class="has-text-align-center section-title wp-block-heading">
+                            <a href="/about/">About Us</a>
+                        </h2>
+                    {% else %}
+                        <h2 class="has-text-align-center section-title wp-block-heading">About Us</h2>
+                    {% endif %}
+
+                    <h3 class="has-text-align-center" style="display:flex;align-items:center;justify-content:center;gap:10px;">
+                        Kathryn Baer
+                        <a href="https://www.linkedin.com/in/kathryn-a-baer">
+                            <img
+                                decoding="async"
+                                style="width: 35px;"
+                                src="/assets/linkedin-icon.png">
+                        </a>
+                    </h3>
+                    <h4>CEO, Co-Founder</h4>
+                    <p class="co-founder-info">
+                        Kathryn is an experienced researcher and analyst in the nonprofit sector. Prior to Prova Lab, she was the Programs &amp; Partnership Manager at Impact Hub, San Francisco. Previously, she was a Co-founder of the Trafficking Research Project — the first policy research organization in Singapore dedicated to human trafficking. With specializations in violence against women and human trafficking, she previously worked at Polaris in the US, and Anti-Slavery International in the UK. She also served on the Board of the Family Violence Law Center in Oakland. Kathryn has an MSc in Social Policy from the London School of Economics and Political Science, and double majored in Political Science and International Affairs at James Madison University. While based in San Francisco, she’s frequently putting her passport to good use.
+                    </p>
+
+                    <hr class="wp-block-separator has-alpha-channel-opacity" />
+
+                    <h3 class="has-text-align-center" style="display:flex;align-items:center;justify-content:center;gap:10px;">
+                        Helke Ramos
+                        <a href="https://www.linkedin.com/in/helke-ramos-36807521/">
+                            <img
+                                decoding="async"
+                                style="width: 35px;"
+                                src="/assets/linkedin-icon.png">
+                        </a>
+                    </h3>
+                    <h4>Director of Partnerships, Co-Founder</h4>
+                    <p class="co-founder-info">
+                        Born and raised in Rio de Janeiro, Helke is a trained architect &amp; designer with a certification from the Institute for Sustainability Leadership, University of Cambridge. Her 20+ year career is built on creating live events using sustainability methods, as well as working on events aimed at promoting environmental education. Her previous business, Zada Sustainable Creation, was the first event company in Brazil to receive an environmental certification. Helke has executed events in Brazil, Portugal, the UK, Liechtenstein and the US. She received the 2008 InfoComm/LSA Stage Events Award for Most Innovative Use of Technology for an Outdoor Event: a city-wide festival featuring a floating, 165 ft high, Christmas Tree on Lagoa Da Pampulha, Brazil. Helke is also an enthusiastic trail runner with a great passion for the environment, people&#8217;s well being, animals and sustainability.
+                    </p>
+                </div>
+            </div>
+
+            <div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+                <div class="wp-block-group__inner-container"></div>
+            </div>
+
+            {% if is_preview == true %}
+                <a href="/about/" class="custom-button">READ MORE</a>
+            {% endif %}
+        </div>
+    </div>
+</div>

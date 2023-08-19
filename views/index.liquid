@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% assign title = "Prova Lab Social Innovation" %}
+        {% include "partials/_head.liquid" %}
+    </head>
+    <!-- hidden while correctly positioning parallax elements -->
+    <body class="home page-template-default page page-id-2" style="visibility: hidden;">
+        <section id="top" class="parallax">
+            <div id="top-section-content">
+                <div id="content-wrapper">
+                    <img id="landing-logo" src="/assets/prova-lab-new-logo-3.png" />
+                    <div
+                        id="block-quote"
+                        class="hidden"
+                        style="color: #fff;">
+                        <p>Social Innovation should be accessible. We encourage and support innovation in the social purpose sector by creating opportunities to collaborate, learn, and test.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        {% include "partials/_sticky-navbar.liquid" %}
+        <main id="landing">
+            <div class="parallax-left columns">
+                <div class="parallax" style="background-image: url('assets/gears-cropped.jpg');"></div>
+                <div class="content">
+                    <h1 class="section-title">What We Do</h1>
+
+                    <h2 class="wp-block-heading">
+                        <a href="/events/">Events</a>
+                    </h2>
+
+                    <p>We create and host events that showcase innovation, provide learning opportunities, and facilitate new connections.</p>
+
+                    <h2 class="wp-block-heading">
+                        <a href="/education/">Education</a>
+                    </h2>
+
+                    <p>We specialize in foundational courses aimed at demystifying the concepts of social innovation and social impact. Through our fun, interactive classes, we provide the tools, tactics and resources to help professionals operationalize and apply these concepts to their work.</p>
+
+                    <h2 class="wp-block-heading">
+                        <a href="/the-lab/">The Lab</a>
+                    </h2>
+
+                    <p>We are building an immersive research lab for nonprofit organizations to pilot project or program initiatives. This is an opportunity for nonprofit organizations to increase their efficacy and build internal capacity through peer learning, structured educational courses and hands-on supported pilot research.</p>
+                </div>
+            </div>
+            <div class="parallax-right columns">
+                <div class="content">
+                    <h1 class="section-title">Partnerships</h1>
+
+                    <p class="has-text-align-left">Collaboration is key to enacting the structural shift we envision for&nbsp;social innovation. We’re a community of nonprofits, for-profits, entrepreneurs, researchers, and activists.&nbsp;We welcome partnerships across sectors for various&nbsp;programming and community initiatives.</p>
+
+                    <a href="/#contact" class="custom-button">JOIN US</a>
+                </div>
+                <div class="parallax" style="background-image: url('/assets/bulbs-cropped-new2.jpg');"></div>
+            </div>
+            {% assign is_preview = true %}
+            {% include "partials/_about.liquid" %}
+            {% include "partials/_contact.liquid" %}
+        </main>
+        {% include "partials/_footer.liquid" %}
+    </body>
+</html>

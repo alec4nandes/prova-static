@@ -1,0 +1,114 @@
+.navbar {
+    .subscribe {
+        width: fit-content;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        font-weight: 400 !important;
+        padding: 0 15px;
+
+        input {
+            height: 30px;
+            border-radius: 0;
+            box-sizing: border-box;
+            -webkit-appearance: none;
+            -webkit-border-radius: 0;
+
+            &:focus {
+                outline: 0;
+            }
+
+            &[type="email"],
+            &[type="submit"] {
+                font-size: 15px;
+            }
+
+            &[type="email"] {
+                padding-right: 10px;
+                transition: 1s;
+
+                &:focus {
+                    background-color: lightgreen !important;
+                }
+            }
+
+            &[type="submit"] {
+                padding: 0 15px;
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+
+        #mc_embed_signup_scroll {
+            display: flex;
+
+            .mc-field-group {
+                width: 180px;
+
+                input[type="email"] {
+                    width: 100%;
+                }
+
+                .mce_inline_error {
+                    font-weight: 400 !important;
+                    margin: 0 !important;
+                }
+            }
+        }
+
+        #mce-success-response {
+            height: 100%;
+            background-color: lightgreen;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 5px 10px;
+        }
+    }
+}
+
+.wpforms-container {
+    margin: 0 !important;
+
+    .wpforms-confirmation-container-full {
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0;
+        text-align: center;
+    }
+
+    form {
+        * {
+            padding: 0 !important;
+        }
+    }
+}
+
+button,
+input[type="submit"],
+input[type="email"] {
+    font-family: "Oxygen", sans-serif;
+}
+
+button,
+input[type="submit"] {
+    border: 0 !important;
+    // border-radius: 10px 10px 10px 0;
+    text-transform: uppercase !important;
+    transition: 1s !important;
+}
+
+input[type="email"],
+input[type="text"],
+textarea {
+    max-width: 100% !important;
+    background: transparent !important;
+    border-top: 0 !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+    border-radius: 0 !important;
+    font-family: "Oxygen", sans-serif;
+    padding-left: 5px !important;
+}
