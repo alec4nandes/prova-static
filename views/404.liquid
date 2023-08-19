@@ -1,0 +1,47 @@
+---
+permalink: "404.html"
+---
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% assign title = "Page Not Found &mdash; Prova Lab" %}
+        {% assign description = "Oops! Try another page listed in the navigation bar." %}
+        {% assign url = "/" %}
+        {% include "partials/_head.liquid" %}
+
+        <style>
+            body {
+                min-height: 100vh;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .prova-page {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex: 1;
+            }
+        </style>
+    </head>
+    <!-- hidden while correctly positioning parallax elements -->
+    <body class="error404" style="visibility: hidden;">
+        {% include "partials/_small-header.liquid" %}
+        {% include "partials/_sticky-navbar.liquid" %}
+        <div class="prova-page">
+            <div class="columns plain">
+                <div class="content error-404">
+                    <span>
+                        O<img src="/assets/prova-lab-splash.png" alt="O in Prova Lab logo" />ps!
+                    </span>
+                    <p>
+                        This page doesn't exist!
+                        <a href="/">Return home.</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        {% include "partials/_footer.liquid" %}
+    </body>
+</html>
