@@ -5,7 +5,8 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "elev": "npx @11ty/eleventy"
+        "elev": "npx @11ty/eleventy",
+        "serve": "firebase serve --only hosting"
     },
     "keywords": [],
     "author": "",
