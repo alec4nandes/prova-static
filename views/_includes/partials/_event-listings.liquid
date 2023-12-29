@@ -14,16 +14,7 @@
                     {% for event in events %}
                         <div class="event-info">
                             <div class="event-content">
-                                {% if event.url %}
-                                    <a
-                                        href="{{ event.url }}"
-                                        target="_blank"
-                                        rel="noopener">
-                                        <h4 class="event-name">{{ event.name }}</h4>
-                                    </a>
-                                {% else %}
-                                    <h4 class="event-name">{{ event.name }}</h4>
-                                {% endif %}
+                                <h4 class="event-name">{{ event.name }}</h4>
                                 <p class="date">{{ event.display_date }}</p>
                                 <p class="description">{{ event.description }}</p>
                             </div>
