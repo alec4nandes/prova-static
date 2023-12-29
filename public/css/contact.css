@@ -17,6 +17,22 @@
   height: 0 !important;
 }
 
+#contact-dialog {
+  max-width: 500px;
+  background-color: #222;
+  border-color: #4cb0be;
+  color: #eee;
+  text-align: center;
+}
+#contact-dialog button {
+  background-color: #f7a34a;
+  padding: 10px 20px;
+}
+#contact-dialog button:hover {
+  background-color: #4cb0be;
+  cursor: pointer;
+}
+
 .prova-page .wpforms-submit-container {
   text-align: center;
 }

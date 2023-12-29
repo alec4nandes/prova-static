@@ -6,7 +6,7 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "elev": "npx @11ty/eleventy",
-        "serve": "firebase serve --only hosting"
+        "serve": "firebase serve --only hosting --port=5001"
     },
     "keywords": [],
     "author": "",

@@ -346,49 +346,34 @@
 </div>
 
 <link
-    rel='stylesheet'
-    id='wpforms-full-css'
-    href='/wp-forms/css/wpforms-full.min.css'
-    type='text/css'
-    media='all' />
-<script
-    type='text/javascript'
-    src='https://c0.wp.com/p/jetpack/11.4.1/_inc/build/photon/photon.min.js'
-    id='jetpack-photon-js'></script>
-<script
-    type='text/javascript'
-    src='https://c0.wp.com/c/6.3/wp-includes/js/jquery/jquery.min.js'
-    id='jquery-core-js'></script>
-<script
-    type='text/javascript'
-    src='https://c0.wp.com/c/6.3/wp-includes/js/jquery/jquery-migrate.min.js'
-    id='jquery-migrate-js'></script>
-<script
-    type='text/javascript'
-    src='/wp-forms/js/jquery.validate.min.js'
-    id='wpforms-validation-js'></script>
-<script
-    type='text/javascript'
-    src='/wp-forms/js/mailcheck.min.js'
-    id='wpforms-mailcheck-js'></script>
-<script
-    type='text/javascript'
-    src='/wp-forms/js/punycode.min.js'
-    id='wpforms-punycode-js'></script>
-<script
-    type='text/javascript'
-    src='/wp-forms/js/utils.js'
-    id='wpforms-generic-utils-js'></script>
-<script
-    type='text/javascript'
-    src='/wp-forms/js/wpforms.min.js'
-    id='wpforms-js'></script>
-<script
-    type='text/javascript'
-    src='https://www.google.com/recaptcha/api.js?render=6LfYOs4gAAAAAEEHGXqjQ3ta0BuqLlUOqHml4jbU'
-    id='wpforms-recaptcha-js'></script>
-<script id="wpforms-recaptcha-js-after" src="/wp-forms/js/main.js"></script>
-<script src='https://stats.wp.com/e-202333.js' defer></script>
+    rel="stylesheet"
+    id="wpforms-full-css"
+    href="/wp-forms/css/wpforms-full.min.css"
+    type="text/css"
+    media="all" />
+
+<dialog id="contact-dialog">
+    <p>
+        Prova Lab came to a close in 2023. If you'd like to get in touch about Prova Lab's work,
+        Social Innovation or Social Impact, contact Kathryn Baer on
+        <a href="https://www.linkedin.com/in/kathryn-a-baer/" target="_blank" rel="noopener">LinkedIn</a>.
+    </p>
+    <p>
+        If you'd like to get in contact about the website, please contact Alec Fernandes at
+        <a href="mailto:al@fern.haus">al@fern.haus</a>.
+    </p>
+    <p>
+        <button id="close">close</button>
+    </p>
+</dialog>
+
+<script>
+    const contactForm = document.querySelector("#wpforms-form-218"),
+        dialog = document.querySelector("#contact-dialog"),
+        closeDialog = dialog.querySelector("#close");
+    contactForm.onclick = () => dialog.showModal();
+    closeDialog.onclick = () => dialog.close();
+</script>
         </main>
         <footer>
     <div>
