@@ -24,6 +24,9 @@
   color: #eee;
   text-align: center;
 }
+#contact-dialog button:hover {
+  cursor: pointer;
+}
 
 .prova-page .wpforms-submit-container {
   text-align: center;

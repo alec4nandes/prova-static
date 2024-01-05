@@ -1,6 +1,10 @@
 module.exports = function () {
     return {
-        events: bootcamps,
+        events: bootcamps.map((bc) => ({
+            ...bc,
+            description: bc.description.toUpperCase(),
+            display_date: bc.display_date.toUpperCase(),
+        })),
     };
 };
 
